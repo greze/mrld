@@ -2,8 +2,8 @@ debug = false  --set false for release
 --audio
 --music = love.audio.newSource('/assets/tamayama.wav')
 --music:play()
-bulletSound = love.audio.newSource('/assets/bullet.ogg', 'static')
-crash = love.audio.newSource('assets/crash.ogg', 'static')
+bulletSound = love.audio.newSource('/assets/audio/bullet.ogg', 'static')
+crash = love.audio.newSource('assets/audio/crash.ogg', 'static')
 crash:setVolume(0.4)
 --player
 player = { x = 200, y = 610, speed = 150, img = nil }
